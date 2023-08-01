@@ -10,8 +10,16 @@ namespace Testing.Models
 
 		public Product GetProduct(int id);
 
-		public void updateProduct(Product product);
-        void UpdateProduct(Product product);
+		public void UpdateProduct(Product product);
+
+        
+
+        public void InsertProduct(Product productToInsert);
+
+        public IEnumerable<Category> GetCategories();
+
+        public Product AssignCategory();
+
     }
 }
 
